@@ -1,0 +1,36 @@
+Meals:
+	{
+		hotel: 1,
+		id: 1
+		name: 'ארוחת בוקר,
+		timing: {startAt, endAt:}
+
+		hotel: 1,
+		id: 2
+		name: 'ארוחת צהריים'
+
+		hotel: 1,
+		id: 3
+		name: 'ארוחת ערב'
+
+		hotel: 2,
+		id: 4
+		name: 'ארוחת עם שחר'
+	}
+OrdersTable:
+	{
+		user_id: 7
+		table_id:
+		when: 13/11/18
+		whichMeal: 
+	}
+	{
+		user_id: 7
+		table_id: 3
+		when: 15/11/18
+		whichMeal: 1
+	}
+
+/OrderTable:
+	{user_id, sits, whichMeal}
+	
